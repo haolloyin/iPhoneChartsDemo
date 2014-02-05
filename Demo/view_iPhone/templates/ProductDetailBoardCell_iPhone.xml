@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="ProductDetailBoardCell_iPhone">
+    
+    <linear orientation="v" class="outter-wrapper">
+		
+		<label class="title" id="overview_title">总况</label>
+        
+		<linear orientation="v" class="wrapper">
+			<view class="inner-bg"/>
+			<label class="sub-title" id="realtime_online_title">
+				实时在线
+			</label>
+			<label class="sub-content" id="realtime_online_desc">
+				PCU昨天:100w  前天:80w  上周:79.7w
+			</label>
+			<button id="realtime_online" class="mask"/>
+		</linear>
+        
+		<linear orientation="v" class="wrapper">
+			<view class="inner-bg"/>
+			<label class="sub-title" id="act_user_title">
+				活跃用户
+			</label>
+			<label class="sub-content" id="act_user_desc">
+                昨天:1000w  前天:83w  上周:79.7w
+			</label>
+			<button id="active_user" class="mask"/>
+		</linear>
+        
+		<linear orientation="v" class="wrapper">
+			<view class="inner-bg"/>
+			<label class="sub-title" id="new_user_title">
+				新增用户
+			</label>
+			<label class="sub-content" id="new_user_desc">
+				昨天:23w  前天:19w  上周:20.8w
+			</label>
+			<button id="new_user" class="mask"/>
+		</linear>
+        
+		<linear orientation="v" class="wrapper">
+			<view class="inner-bg"/>
+			<label class="sub-title" id="income_title">
+				收入
+			</label>
+			<label class="sub-content" id="income_desc">
+				昨天:23w  前天:19w  上周:20.8w
+			</label>
+			<button id="income" class="mask"/>
+		</linear>
+        
+
+		
+	</linear>
+	
+	<style type="text/css">
+		
+		.outter-wrapper {
+            width: 100%;
+            height: auto;
+		}
+		
+		.wrapper {
+            margin-top: 10px;
+            width: 100%;
+            height: 50px;
+            font-family: Heiti SC;
+		}
+		
+		.title {
+            width: 100%;
+            height: auto;
+            color: #fff;
+            margin-top: 10px;
+            padding-left: 20px;
+            font-family: Heiti SC;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            line-num: 1;
+            line-break: tail-trunc;
+		}
+		
+		.inner-bg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            background-color: #fff;
+            padding: 0px 8px;
+            border-radius: 8px;
+		}
+		
+		.sub-title {
+            width: 100%;
+            height: 20px;
+            margin-top: 6px;
+            padding: 0px 20px;
+            color: black;
+            font-family: Heiti SC;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+            line-num: 999;
+            line-break: word-wrap;
+		}
+		
+		.sub-content {
+            width: 100%;
+            height: 20px;
+            margin-bottom: 6px;
+            padding: 0px 20px;
+            color: #666;
+            font-size: 14px;
+            font-weight: lighter;
+            text-align: left;
+            line-num: 999;
+            line-break: word-wrap;
+		}
+		
+		.mask {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+		}
+		
+    </style>
+</ui>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="ProductDetailTitleCell">
+    
+    <linear orientation="v" class="wrapper">
+        <label class="title" id="section_title">总况</label>
+    </linear>
+    
+	<style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: auto;
+        }
+        
+        .title {
+            width: 100%;
+            height: auto;
+            color: #fff;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            padding-left: 20px;
+            font-family: Heiti SC;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            line-num: 1;
+            line-break: tail-trunc;
+		}
+	</style>
+    
+</ui>

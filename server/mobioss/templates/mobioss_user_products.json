@@ -1,0 +1,1 @@
+[    {% if products_list %}    {% for p in products_list %}        {            {% for k, v in p.items %}                "{{ k }}": "{{ v }}"{% if not forloop.last %},{% endif %}            {% endfor %}        }{% if not forloop.last %},{% endif %}    {% endfor %}    {% endif %}]

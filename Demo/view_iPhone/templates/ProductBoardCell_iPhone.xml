@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="ProductBoardCell_iPhone">
+	<linear orientation="v" class="wrapper">
+		<image class="bg"/>
+		<image id="product-logo" class="logo"/>
+		<linear orientation="h" class="bottom-line">
+            <label id="product-name" class="name">name</label>
+		</linear>
+		<button id="mask"/>
+	</linear>
+	
+	<style type="text/css">
+		.wrapper {
+        width: 100%;
+        height: auto;
+        padding: 2px;
+        margin-top: 2px;
+        align: center;
+		}
+		
+		.bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+		}
+        
+		.logo {
+        width: 64px;
+        height: 64px;
+        margin-top: 3px;
+        image-mode: fill;
+        image-loading: white;
+        image-src: url(apple_64_plat.png);
+		}
+		
+		.bottom-line {
+        width: auto;
+        height: 16px;
+		}
+		
+		.name {
+        width: auto;
+        height: 100%;
+        color: width;
+        olor: black;
+        font-size: 13px;
+        font-family: Heiti SC;
+		}
+        
+		#mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+		}
+        
+	</style>
+</ui>
